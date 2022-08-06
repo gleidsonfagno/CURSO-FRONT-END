@@ -1,0 +1,27 @@
+
+# GIT
+## versionamento
+ -histórco
+ -controle de versão
+ -quem alterou
+ -quando alterou
+ -todos os arquivos
+ -evolução continua
+
+ Arquivo A | versão 1 | verção 2
+ Arquivo B | versão 2 | verção 2
+
+ ## istalação do git
+
+ ## criar conta no github
+
+ ## clonar projeto
+ 1-git clone https://github.com/gleidsonfagno/CURSO-FRONT-END.git
+ 
+
+ ## commits
+ informação de alteraçao
+ - após testado todo seu codigo
+
+ ## gitflow
+ fluxo do git
