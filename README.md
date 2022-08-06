@@ -27,6 +27,6 @@
  - git edd *
  - git commit -m "mensage"
  - git push (enviar altrações para o repositorio)
-
+ - git pull (puxar / trazer altrações do github para minha maquina)
  ## gitflow
  fluxo do git
