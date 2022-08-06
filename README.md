@@ -39,6 +39,9 @@
  - DOD definition of done: criterio de aceitar
  - versionamento 0.1.11
 
+git checkout -b dev (cria uma brach)
+git checkout master (mudar de brach)
+
  ### Marge
  Mesacla de Branchs
  
