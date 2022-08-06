@@ -25,6 +25,7 @@
  - após testado todo seu codigo
  - git edd *
  - git commit -m "mensage"
+ - git push (enviar altrações para o repositorio)
 
  ## gitflow
  fluxo do git
