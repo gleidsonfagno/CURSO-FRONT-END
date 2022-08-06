@@ -23,6 +23,8 @@
  ## commits
  informação de alteraçao
  - após testado todo seu codigo
+ - git edd *
+ - git commit -m "mensage"
 
  ## gitflow
  fluxo do git
