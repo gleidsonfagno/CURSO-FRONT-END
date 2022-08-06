@@ -30,3 +30,11 @@
  - git pull (puxar / trazer altrações do github para minha maquina)
  ## gitflow
  fluxo do git
+
+ ### Branchs
+ sao ramificaçoe / versoes paralelas
+
+ - main / master (vai para a produção, quando oprojeto e publicado)
+ - develope 
+ - DOD definition of done: criterio de aceitar
+ - versionamento 0.1.11
