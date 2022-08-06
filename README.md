@@ -15,6 +15,9 @@
 
  ## istalação do git
 
+ ## clonar projeto
+ git clone https://github.com/gleidsonfagno/CURSO-FRONT-END.git
+
  ## criar conta no github
 
  ## commits
