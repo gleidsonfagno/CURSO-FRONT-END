@@ -44,4 +44,14 @@ git checkout master (mudar de brach)
 
  ### Marge
  Mesacla de Branchs
+ voce pode precisar resolver os conflitos manualmente
  
+ git merge main  
+
+ ### pull requests
+ mescla de Branchs no repositorio
+ permite code review
+ o repositorio resolve os conflitos automaticamente
+
+ ### configurando o gitflow
+ git flow init
