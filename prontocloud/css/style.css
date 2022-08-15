@@ -21,6 +21,7 @@ body{
     margin: 0 auto;
 }
 
+
 header{
     background: #fff;
     display: block;
@@ -132,4 +133,9 @@ footer p{
 small{
     font-size: 80%;
     display: block;
+}
+
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+
+    visibility: hidden !important;
 }
