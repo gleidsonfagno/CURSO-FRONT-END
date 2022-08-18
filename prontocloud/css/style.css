@@ -63,6 +63,13 @@ p{
     color: #333;
 }
 
+/* configurando resposividade da img */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 ol{
     margin-left: 30px;
 }
@@ -135,7 +142,27 @@ small{
     display: block;
 }
 
-html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+/* html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
 
     visibility: hidden !important;
+} */
+
+.cognito{
+    height: 400px !important;
+    overflow: hidden;
+}
+
+#tenho-interesse{
+    width: 100%;
+    background: #dfdfdf;
+}
+
+#tenho-interesse .cog-form__content{
+    background: #dfdfdf;
+}
+
+#tenho-interesse .cog-field 
+.cog-label
+{
+    color: #2b5479;
 }
