@@ -1,8 +1,10 @@
+
 html{
     font-size: 62.5% ;
 }
 
 body{
+    
     background:#f5f5f5;
     font-family: 'Work Sans', sans-serif;
 }
@@ -21,6 +23,7 @@ body{
     margin: 0 auto;
 }
 
+
 header{
     background: #fff;
     display: block;
@@ -29,6 +32,7 @@ header{
     padding: 20px;
     border-bottom: 1px solid #254159;
 }
+
 
 h1{
    font-size: 2.4rem;
@@ -62,6 +66,13 @@ p{
     color: #333;
 }
 
+/* configurando resposividade da img */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 ol{
     margin-left: 30px;
 }
@@ -90,7 +101,7 @@ section nav{
 nav li{
     background: #efefef;
     margin: 1px 20px 1px 0;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav li:hover{
@@ -114,6 +125,11 @@ section article{
     
 }
 
+.article{
+    margin: 1px 20px 1px 0;
+    padding: 20px;
+}
+
 
 footer{
     float: left;
@@ -132,4 +148,44 @@ footer p{
 small{
     font-size: 80%;
     display: block;
+}
+
+/* html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
+
+    visibility: hidden !important;
+} */
+
+.cognito{
+    height: 400px !important;
+    overflow: hidden;
+}
+
+#tenho-interesse{
+    width: 100%;
+    background: #dfdfdf;
+    overflow: hidden !important;
+}
+
+#tenho-interesse .cog-form__content{
+    background: #dfdfdf;
+}
+
+#tenho-interesse .cog-field 
+.cog-label
+{
+    color: #2b5479;
+}
+
+
+@media (max-width: 425px) {
+    section nav,
+    section article{
+        width: 100% ;
+        min-width: 320px;
+    }
+    .container{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
 }
