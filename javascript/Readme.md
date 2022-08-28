@@ -9,3 +9,5 @@
 - (5) voutar para a outra margem e deixar a cabra e pegar o lobo
 - (6) ir ate a outra margem e deixar o lobo voutar com o barco vazio
 - (7) pergar a cabra levar ate a outra margem a onde esta o lobo e o maço de alfafa
+
+
