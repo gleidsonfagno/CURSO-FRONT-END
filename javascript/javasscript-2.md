@@ -1,3 +1,31 @@
+ # operadore
+
+ ## aritimeticos: retornam o resultado de uma operacao
+ + somar
+ - subtrair
+ = multiplicar
+ / dividir
+ % resto de divisao
+
+ ## comparadores matematicos: teste logico, retorno booleano (true / fulse):
+ < menor que
+ > maior que
+ <= menor ou igul
+ >= maior ou igul
+
+ ## comparadores logicos: teste logico, retorno boleano (true/ fulse)
+ == igualdade entre sentencas (valor)
+ != diferencas (valor)
+ === igualdade entre sentencas (valor e tipo)
+ !== diferencas entre sentencas (valor e tipo)
+
+ ## Operadores se logica e juncao logica
+ ! nao (not)
+ && e (and)
+ || ou (OR)
+ 
+
+
    ## loops
 
 ## for ([expresao inicial]) ([condicao]) ([incremento])

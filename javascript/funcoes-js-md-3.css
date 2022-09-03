@@ -1,0 +1,23 @@
+body{
+    background: #ccc;
+}
+.container{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    align-items: center;
+    padding: 20px;
+    color: aqua;
+}
+button{
+    align-items: center;
+    text-align: center;
+}
