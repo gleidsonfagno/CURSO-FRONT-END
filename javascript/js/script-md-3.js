@@ -3,24 +3,25 @@ document.getElementById("formulario-01").addEventListener("submit", function(eve
     evento.preventDefault();
     evento.stopPropagation();
 
-    let dados = mew FormData(this);
-
-    let objeto = {};
+    let dados = new FormData(this);
 
     let notas = [];
 
-    for(let key of dados.keys()){
-        objeto[key] = dados.get(key);
+    for(let key of dados.keys()) {
 
+        let numero = dados.get(key).match(/\d/) ? Number(dados.get(key)) : 0; //nomero
         //adicionar intens no array
-        notas.push(parseInt(dados.get(key)));
+        
+        if(!isNaN(numero));{
+            notas.push(numero);
+        }
     }
 
     console.log(notas);
 
-    console.log(objetos);
-
-    texto = aprovado(notas)
+    texto = aprovacao(notas)
 
     document.getElementById("resultado").innerHTML = texto;
 });
+
+document.getElementBy

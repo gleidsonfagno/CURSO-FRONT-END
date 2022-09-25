@@ -22,7 +22,7 @@ document.addEventListener("submit", function(evento){
 
     let formulario = document.getElementById("formulario-01");
 
-    let dados = mew FormData(formulario);
+    let dados = new FormData(formulario);
 
     let objeto = {};
 
