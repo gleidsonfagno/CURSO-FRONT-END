@@ -1,5 +1,13 @@
+section{
+    padding-bottom: 4rem 4rem;
+}
+
+input, textarea{
+    margin-bottom: 1rem;
+}
+
 .card{
-    width: 30%;
-    float: left;
-    margin: 2px;
+    width: 32%;
+    float: letf;
+    margin: 5px;
 }
