@@ -2,22 +2,42 @@ body{
     background: #ccc;
 }
 .container{
+    width: 50%;
+    margin: auto;
     background: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    text-align: center;
 }
 
 form{
-    margin: 10px;
+    display: block;
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
 }
-input{
-    margin: 10px;
-    align-items: center;
-    padding: 20px;
-    color: aqua;
+input, button{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem 2rem;
 }
 button{
-    align-items: center;
+    border: 0 none;
+    border-radius: 20px;
+    background: #2121be;
+    width: 6rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+ }
+
+ input{
+    width: 50%;
+    padding: 1rem 2rem;
+ }
+
+ .mensagem
+ #resultados{
+    font-size: 2rem;
     text-align: center;
-}
+    padding: 2rem;
+
+ }

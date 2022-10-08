@@ -5,6 +5,7 @@ document.getElementById("formulario-01").addEventListener("submit", function(eve
 
     let dados = new FormData(this);
 
+
     let notas = [];
 
     for(let key of dados.keys()) {
@@ -19,9 +20,18 @@ document.getElementById("formulario-01").addEventListener("submit", function(eve
 
     console.log(notas);
 
-    texto = aprovacao(notas)
+    texto = (notas)
 
     document.getElementById("resultado").innerHTML = texto;
 });
 
-document.getElementBy
+document.querySelector("input").addEventListener('focusout', function(event){
+    event.preventDefault;
+
+    if(this.value == " "){
+
+        document.querySelector('.mesagem').innerHTML = "verifique os dados";
+        thid.style.border
+        return false;
+    }
+});
