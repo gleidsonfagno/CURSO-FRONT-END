@@ -14,16 +14,16 @@ let media; //escopo global
 
 function aprovacao( notas){
     let media = calcularMedia( notas ); //escopo da funcao
-    let condicao = media >= 8 ? "aprovado" : "reprovado";
+    let condicao = media >= 7 ? "aprovado" : "reprovado";
 
-    return "Media" + media + "- resultado" + condicao;
+    return "Media" + media + " resultado" + condicao;
 }
 // funcao recursiva
 
 function contagemRegressiva(numero){
     console.log(numero);
 
-    let aproximoNumero = numero - 1;
+    let proximoNumero = numero - 1;
 
     if (proximoNumero > 0)
     contagemRegressiva(proximoNumero);     
